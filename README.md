@@ -4,7 +4,7 @@ Dieses Projekt is durch netidee.at als Nachfolgeprojek von "Bring your Own devic
 
 Informationen zu diesem Projekt "Augmented Reality 4 School" und zu dessen Vorgänger finden Sie auf der Projekthomepage http://ar.o-le.org
 
-Hier finden Sie die Source-Codes.
+Hier finden Sie die Source-Codes unter LGPL open source Lizenz.
 
 Das "Augmented Reality 4 School" Projekt beinhaltet mehrere Teile:
 
@@ -14,6 +14,12 @@ Das "Augmented Reality 4 School" Projekt beinhaltet mehrere Teile:
 
 ## Authoring Backend 
 
+Voraussetzungen:
+
+Das Backend basiert auf einem LAMP Stack:
+* http://mysql.com Datenbank
+* http://php.net Scriptsprache
+* https://laravel.com Framework, Installation siehe https://laravel.com/docs/5.6
 
 
 
