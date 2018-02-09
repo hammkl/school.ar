@@ -12,7 +12,16 @@ Das "Augmented Reality 4 School" Projekt beinhaltet mehrere Teile:
 2. eine Augmented Reality App für Schüler*innen und Lehrer*innen um diese Inhalte abrufen zu können
 
 
+## Dokumentation
+
+* Benutzerdokumentation: https://goo.gl/7BHnLC
+* Informationen für Entwikckler: dieses Dokument
+
+
 ## Authoring Backend 
+
+Status: BETA
+* produktiv verwendbar, Verbesserungen in Usability, Anzahl der möglichen Targets und erweiterte Integration interaktiver Inhalte geplant
 
 Voraussetzungen:
 
@@ -21,8 +30,18 @@ Das Backend basiert auf einem LAMP Stack:
 * http://php.net Scriptsprache
 * https://laravel.com Framework, Installation siehe https://laravel.com/docs/5.6
 
+Life Backende (BETA):
+
+http://incubator.alcyone.si/school.ar/public/
+
 
 
 ## Augmented Reality App
 
+Status: BETA
+* Android produktiv verwendbar, Verbesserungen in Usability und Anzahl der möglichen Targets geplant
+* iOS Version geplant
 
+Installation:
+* APK für Android (mit debug info): https://www.dropbox.com/s/xsuk6hkmifxbwwa/SchoolAR.apk?dl=0
+* Google Play Store:
