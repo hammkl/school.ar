@@ -44,4 +44,4 @@ Status: BETA
 
 Installation:
 * APK für Android (mit debug info): https://www.dropbox.com/s/xsuk6hkmifxbwwa/SchoolAR.apk?dl=0
-* Google Play Store:
+* Google Play Store: https://play.google.com/store/apps/details?id=org.school.ar  (derzeit als Beta)
