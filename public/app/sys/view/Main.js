@@ -82,6 +82,17 @@ Ext.define('SchoolAR.sys.view.Main', {
     },
     initComponent: function() {
     	
+    	var js = document.createElement("script");
+    	js.type = "text/javascript";
+    	js.src = "generic_wiris/integration/WIRISplugins.js?viewer=image";
+    	document.head.appendChild(js);
+    	console.log("Wiris load done.");
+    	
+    	/*var js = document.createElement("script");
+    	js.type = "text/javascript";
+    	js.src = "https://www.wiris.net/demo/editor/editor";
+    	document.head.appendChild(js);*/
+    	
     	Ext.apply(this, {
     		items: []
     	});

@@ -63,7 +63,9 @@ Ext.define('SchoolAR.ar.controller.TargetController', {
     },
     
     onSave: function(button, e) {
+    	var editor = ace.edit("editor-body");
     	var form = this.getView().down('form').getForm();
+    	form.findField('configuration').setValue(editor.getValue());
     	var viewModel = this.getViewModel();
     	if(form.isValid()) {
             form.submit({

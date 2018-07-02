@@ -10,6 +10,6 @@ class Target extends Model
 	protected $table = 'ar_targets';
 	
 	protected $fillable = [
-			'name', 'catalogue_id'
+			'name', 'configuration', 'catalogue_id'
 	];
 }
